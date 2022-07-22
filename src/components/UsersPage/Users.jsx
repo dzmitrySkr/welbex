@@ -28,7 +28,6 @@ function Users() {
   let PageSize = 5
 
 
-  
   // Load users from back in redux store (RS)
   useEffect(() => {
     const serch = async () => {
