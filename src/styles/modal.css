@@ -1,0 +1,47 @@
+.modal {
+  width: 300px;
+  height: 450px;
+  position: absolute;
+  top: 80px;
+  left: calc(50% - 150px);
+  background-color: #134a4a;
+  border: 2px solid rgb(255, 97, 179);
+  border-radius: 4px;
+}
+
+.modal .title {
+  margin-bottom: 5px;
+  margin-top: 17px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: aliceblue;
+}
+
+.modal input {
+  outline: none;
+  border: 0;
+  border: 1px grey solid;
+  border-radius: 2px;
+  background-color: rgb(243, 246, 247);
+}
+
+.modal input:focus {
+  background-color: rgb(255, 255, 255);
+}
+
+.modul_select {
+  width: 150px;
+  background-color: rgb(227, 231, 232);
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+.buttons button {
+  margin: 10px;
+}
+
+.hide {
+  display: none;
+}

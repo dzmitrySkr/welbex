@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(17, 41, 64) !important;
+}
+
+.enter_title {
+  color: #fdfdfd;
+}
+
+.ant-btn-primary {
+  margin-top: 20px;
+  width: 200px;
+}
+.ant-form-item {
+  width: 270px;
+}
+
+#basic label {
+  color: aliceblue;
+  font-weight: 500;
+}
+
+.login_error {
+  color: red;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  transition: 0.3s;
+}
+
+.none {
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.ant-form {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  display: flex;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: "tnum", "tnum";
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}

@@ -1,0 +1,54 @@
+.module_modal_box {
+  width: 320px;
+  height: 420px;
+  background-color: rgb(241, 240, 246);
+  border: 2px blue solid;
+  border-radius: 5px;
+  position: absolute;
+  top: 20%;
+  left: calc(50% - 160px);
+  z-index: 100;
+}
+
+.module_modal_box_off {
+  display: none;
+}
+
+.close_modul_modal {
+  cursor: pointer;
+}
+
+.modal_modul_title{
+    margin-top: 50px;
+}
+
+.circle-picker {
+justify-content: center;
+  margin: 20px auto !important;
+}
+
+.close_modul_modal{
+    background: white;
+    position: absolute;
+    top: -32px;
+    right: -12px;
+    border: 1px #1d2335de solid;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #ca1d1dfc;
+    line-height: 17px;
+    transition: 1.5s;
+}
+
+.close_modul_modal:hover{
+    transform: rotate(720deg);
+    transition: 1.5s;
+}
+
+.modul_modal_button{
+    margin: 10px;
+}
+
+
